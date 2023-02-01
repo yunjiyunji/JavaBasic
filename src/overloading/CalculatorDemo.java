@@ -5,15 +5,14 @@ class Calculator{
     int third = 0;
       
     public void setOprands(int left, int right){
-        System.out.println("setOprands(int left, int right)");
+        // System.out.println("setOprands(int left, int right)");
         this.left = left;
         this.right = right;
     }
      
     public void setOprands(int left, int right, int third){
-        System.out.println("setOprands(int left, int right, int third)");
-        this.left = left;
-        this.right = right;
+    	this.setOprands(left, right);
+        // System.out.println("setOprands(int left, int right, int third)");
         this.third = third;
     }
      
