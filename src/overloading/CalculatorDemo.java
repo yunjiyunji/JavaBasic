@@ -22,7 +22,11 @@ class Calculator{
     }
       
     public void avg(){
-        System.out.println((this.left+this.right+this.third)/3);
+    	if (this.third !=0) {
+    		System.out.println((this.left+this.right+this.third)/3);
+    	} else {
+        	System.out.println((this.left+this.right)/2);
+    	}
     }
 }
   
